@@ -1,7 +1,7 @@
 import React, { useState, useMemo } from 'react';
-import './App.css';
+import './MicrosoftStore.css';
 
-const App = () => {
+const MicrosoftStore = () => {
   const [searchQuery, setSearchQuery] = useState('');
   const [priceFilter, setPriceFilter] = useState('all');
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -239,4 +239,4 @@ const App = () => {
   );
 };
 
-export default App;
+export default MicrosoftStore;
